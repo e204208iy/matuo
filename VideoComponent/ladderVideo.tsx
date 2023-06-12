@@ -1,5 +1,5 @@
 import Youtube from 'react-youtube';
-import "../styles/video.module.scss";
+import style from "../styles/video.module.css";
 
 export default function LadderVideo() {
     const opts = {
@@ -12,6 +12,8 @@ export default function LadderVideo() {
             <Youtube 
                 videoId= "kbWGclLiWhQ"//挿入したいyoutube動画のURL末尾を入力
                 opts={opts}
+                iframeClassName={style.iframe}
+                onPlay={()=>console.log("hello")}
             />
     );
   }
