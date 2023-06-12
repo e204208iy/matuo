@@ -12,7 +12,7 @@ export default function CardHelmet() {
             <CardHeader
                 title="ヘルメット"
             />
-            <Avatar aria-label="recipe" src="./helmet-safety-solid.svg" sx={{ width: 100, height: 100 }}>
+            <Avatar aria-label="recipe" src="./helmet.png" sx={{ width: 100, height: 100 }}>
             </Avatar>
             </CardActionArea>
         </Card>

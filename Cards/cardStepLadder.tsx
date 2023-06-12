@@ -12,7 +12,7 @@ export default function CardStepLadder() {
             <CardHeader
                 title="脚立"
             />
-            <Avatar aria-label="recipe" src="./bars-solid.svg" sx={{ width: 100, height: 100 }}>
+            <Avatar aria-label="recipe" src="./ladder.png" sx={{ width: 100, height: 100 }}>
             </Avatar>
             </CardActionArea>
         </Card>

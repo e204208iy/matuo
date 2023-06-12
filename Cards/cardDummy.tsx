@@ -12,8 +12,7 @@ export default function CardDummy() {
             <CardHeader
                 title="Dummy"
             />
-            <Avatar　sx={{ width: 100, height: 100 }}>
-                D
+            <Avatar aria-label="recipe" src="./no.png" sx={{ width: 100, height: 100 }}>
             </Avatar>
             </CardActionArea>
         </Card>

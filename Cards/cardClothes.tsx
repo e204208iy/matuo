@@ -14,7 +14,7 @@ export default function CardClothes() {
             <CardHeader
                 title="作業服"
             />
-            <Avatar aria-label="recipe" src="./shirt-solid.svg" sx={{ width: 100, height: 100 }}>
+            <Avatar aria-label="recipe" src="./cloth.png" sx={{ width: 100, height: 100 }}>
             </Avatar>
             </Box>
             </CardActionArea>
