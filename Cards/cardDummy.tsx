@@ -4,15 +4,16 @@ import CardActionArea from '@mui/material/CardActionArea';
 import { useNavigate } from "react-router-dom";
 import Avatar from '@mui/material/Avatar';
 
-export default function CardStepLadder() {
+export default function CardDummy() {
     const navigate = useNavigate()
     return (
         <Card sx={{boxShadow:2}}>
             <CardActionArea onClick={() => navigate('/stepladderPage')}>
             <CardHeader
-                title="脚立"
+                title="Dummy"
             />
-            <Avatar aria-label="recipe" src="./bars-solid.svg" sx={{ width: 100, height: 100 }}>
+            <Avatar　sx={{ width: 100, height: 100 }}>
+                D
             </Avatar>
             </CardActionArea>
         </Card>

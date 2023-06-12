@@ -1,8 +1,8 @@
 import Card from '@mui/material/Card';
-import CardMedia from '@mui/material/CardMedia';
 import CardHeader from '@mui/material/CardHeader';
 import CardActionArea from '@mui/material/CardActionArea';
 import { useNavigate } from "react-router-dom";
+import Avatar from '@mui/material/Avatar';
 
 export default function CardHelmet() {
     const navigate = useNavigate()
@@ -12,12 +12,8 @@ export default function CardHelmet() {
             <CardHeader
                 title="ヘルメット"
             />
-            <CardMedia
-                component="img"
-                
-                image="./helmet-safety-solid.svg"
-                title="green iguana"
-            />
+            <Avatar aria-label="recipe" src="./helmet-safety-solid.svg" sx={{ width: 100, height: 100 }}>
+            </Avatar>
             </CardActionArea>
         </Card>
     );

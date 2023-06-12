@@ -1,5 +1,5 @@
 import Card from '@mui/material/Card';
-import CardMedia from '@mui/material/CardMedia';
+import Avatar from '@mui/material/Avatar';
 import CardHeader from '@mui/material/CardHeader';
 import Box from '@mui/material/Box';
 import CardActionArea from '@mui/material/CardActionArea';
@@ -14,12 +14,9 @@ export default function CardClothes() {
             <CardHeader
                 title="作業服"
             />
+            <Avatar aria-label="recipe" src="./shirt-solid.svg" sx={{ width: 100, height: 100 }}>
+            </Avatar>
             </Box>
-            <CardMedia
-                component="img"
-                image="./shirt-solid.svg"
-                title="green iguana"
-            />
             </CardActionArea>
         </Card>
     );
